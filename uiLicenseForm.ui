@@ -21,7 +21,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>src/img/QIcon.png</normaloff>src/img/QIcon.png</iconset>
+    <normaloff>../text-processing-tools/src/img/QIcon.png</normaloff>../text-processing-tools/src/img/QIcon.png</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
@@ -35,10 +35,20 @@
         <x>0</x>
         <y>0</y>
         <width>363</width>
-        <height>688</height>
+        <height>691</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
+       <item row="6" column="2">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>&lt;a href='https://github.com/hankcs/HanLP/blob/doc-zh/LICENSE'&gt;Apache 2.0&lt;/a&gt;</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
        <item row="19" column="1">
         <spacer name="horizontalSpacer">
          <property name="orientation">
@@ -62,30 +72,99 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="2">
-        <widget class="QLabel" name="label_4">
+       <item row="31" column="0">
+        <widget class="QLabel" name="label">
          <property name="text">
-          <string>&lt;a href='https://github.com/hankcs/HanLP/blob/doc-zh/LICENSE'&gt;Apache 2.0&lt;/a&gt;</string>
+          <string>&lt;a href='https://github.com/Tencent/TencentKona-11'&gt;Tencent Kona JDK11&lt;/a&gt; 11.0.13</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
          </property>
         </widget>
+       </item>
+       <item row="20" column="0">
+        <widget class="QLabel" name="label_31">
+         <property name="text">
+          <string>&lt;a href='https://github.com/pyparsing/pyparsing/'&gt;pyparsing&lt;/a&gt; 3.0.7</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="1">
+        <spacer name="horizontalSpacer_13">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="8" column="1">
+        <spacer name="horizontalSpacer_20">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="21" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>&lt;a href='https://wiki.qt.io/Qt_for_Python'&gt;Pyside6&lt;/a&gt; 6.2.2.1</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="2">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>&lt;a href='https://github.com/python-pillow/Pillow/blob/main/LICENSE'&gt;HPND&lt;/a&gt;</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>&lt;a href='https://github.com/jpype-project/jpype'&gt;Jpype&lt;/a&gt; 1.3.0</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="1">
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
        </item>
        <item row="14" column="0">
         <widget class="QLabel" name="label_13">
          <property name="text">
           <string>&lt;a href='https://github.com/numpy/numpy'&gt;Numpy&lt;/a&gt; 1.22.1</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="2">
-        <widget class="QLabel" name="label_20">
-         <property name="text">
-          <string>&lt;a href='https://foss.heptapod.net/openpyxl/et_xmlfile/-/blob/branch/default/LICENCE.rst'&gt;MIT&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -102,10 +181,10 @@
          </property>
         </widget>
        </item>
-       <item row="28" column="2">
-        <widget class="QLabel" name="label_2">
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_20">
          <property name="text">
-          <string>&lt;a href='https://github.com/Tencent/TencentKona-11/blob/master/LICENSE'&gt;GPL 2.0&lt;/a&gt;</string>
+          <string>&lt;a href='https://foss.heptapod.net/openpyxl/et_xmlfile/-/blob/branch/default/LICENCE.rst'&gt;MIT&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -122,16 +201,6 @@
          </property>
         </widget>
        </item>
-       <item row="15" column="2">
-        <widget class="QLabel" name="label_30">
-         <property name="text">
-          <string>&lt;a href='https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/3.0/LICENCE.rst'&gt;MIT&lt;/a&gt;</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
        <item row="6" column="0">
         <widget class="QLabel" name="label_3">
          <property name="text">
@@ -142,28 +211,15 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_41">
+       <item row="15" column="2">
+        <widget class="QLabel" name="label_30">
          <property name="text">
-          <string>&lt;a href='https://github.com/certifi/python-certifi'&gt;certifi&lt;/a&gt; 2021.10.8</string>
+          <string>&lt;a href='https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/3.0/LICENCE.rst'&gt;MIT&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
          </property>
         </widget>
-       </item>
-       <item row="0" column="1">
-        <spacer name="horizontalSpacer_21">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
        </item>
        <item row="0" column="2">
         <widget class="QLabel" name="label_42">
@@ -198,10 +254,56 @@
          </property>
         </widget>
        </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer_21">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_41">
+         <property name="text">
+          <string>&lt;a href='https://github.com/certifi/python-certifi'&gt;certifi&lt;/a&gt; 2021.10.8</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
        <item row="4" column="0">
         <widget class="QLabel" name="label_17">
          <property name="text">
           <string>&lt;a href='https://github.com/matplotlib/cycler'&gt;cycler&lt;/a&gt; 0.11.0</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="1">
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="17" column="2">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>&lt;a href='https://github.com/pandas-dev/pandas/blob/main/LICENSE'&gt;BSD&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -231,43 +333,10 @@
          </property>
         </spacer>
        </item>
-       <item row="17" column="1">
-        <spacer name="horizontalSpacer_5">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="17" column="2">
-        <widget class="QLabel" name="label_10">
+       <item row="26" column="0">
+        <widget class="QLabel" name="label_39">
          <property name="text">
-          <string>&lt;a href='https://github.com/pandas-dev/pandas/blob/main/LICENSE'&gt;BSD&lt;/a&gt;</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="21" column="2">
-        <widget class="QLabel" name="label_8">
-         <property name="text">
-          <string>&lt;a href='https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)'&gt;LGPL 3.0&lt;/a&gt;</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="29" column="2">
-        <widget class="QLabel" name="label_12">
-         <property name="text">
-          <string>&lt;a href='https://github.com/amueller/word_cloud/blob/master/LICENSE'&gt;MIT&lt;/a&gt;</string>
+          <string>&lt;a href='https://github.com/benjaminp/six'&gt;six&lt;/a&gt; 1.16.0</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -287,20 +356,20 @@
          </property>
         </spacer>
        </item>
-       <item row="26" column="0">
-        <widget class="QLabel" name="label_39">
+       <item row="29" column="2">
+        <widget class="QLabel" name="label_12">
          <property name="text">
-          <string>&lt;a href='https://github.com/benjaminp/six'&gt;six&lt;/a&gt; 1.16.0</string>
+          <string>&lt;a href='https://github.com/amueller/word_cloud/blob/master/LICENSE'&gt;MIT&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
          </property>
         </widget>
        </item>
-       <item row="26" column="2">
-        <widget class="QLabel" name="label_40">
+       <item row="21" column="2">
+        <widget class="QLabel" name="label_8">
          <property name="text">
-          <string>&lt;a href='https://github.com/benjaminp/six/blob/master/LICENSE'&gt;MIT&lt;/a&gt;</string>
+          <string>&lt;a href='https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)'&gt;LGPL 3.0&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -327,20 +396,10 @@
          </property>
         </widget>
        </item>
-       <item row="14" column="2">
-        <widget class="QLabel" name="label_14">
+       <item row="26" column="2">
+        <widget class="QLabel" name="label_40">
          <property name="text">
-          <string>&lt;a href='https://github.com/numpy/numpy/blob/main/LICENSE.txt'&gt;BSD&lt;/a&gt;</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="22" column="0">
-        <widget class="QLabel" name="label_33">
-         <property name="text">
-          <string>&lt;a href='https://github.com/dateutil/dateutil'&gt;python-dateutil&lt;/a&gt; 2.8.2</string>
+          <string>&lt;a href='https://github.com/benjaminp/six/blob/master/LICENSE'&gt;MIT&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -361,6 +420,26 @@
         <widget class="QLabel" name="label_16">
          <property name="text">
           <string>&lt;a href='https://github.com/jpype-project/jpype/blob/master/LICENSE'&gt;Apache 2.0&lt;/a&gt;</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="2">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>&lt;a href='https://github.com/numpy/numpy/blob/main/LICENSE.txt'&gt;BSD&lt;/a&gt;</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="0">
+        <widget class="QLabel" name="label_33">
+         <property name="text">
+          <string>&lt;a href='https://github.com/dateutil/dateutil'&gt;python-dateutil&lt;/a&gt; 2.8.2</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -393,20 +472,20 @@
          </property>
         </spacer>
        </item>
-       <item row="22" column="2">
-        <widget class="QLabel" name="label_34">
+       <item row="15" column="0">
+        <widget class="QLabel" name="label_29">
          <property name="text">
-          <string>&lt;a href='https://github.com/dateutil/dateutil/blob/master/LICENSE'&gt;Apache 2.0&lt;/a&gt;</string>
+          <string>&lt;a href='https://foss.heptapod.net/openpyxl/openpyxl'&gt;openpyxl&lt;/a&gt; 3.0.9</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
          </property>
         </widget>
        </item>
-       <item row="15" column="0">
-        <widget class="QLabel" name="label_29">
+       <item row="22" column="2">
+        <widget class="QLabel" name="label_34">
          <property name="text">
-          <string>&lt;a href='https://foss.heptapod.net/openpyxl/openpyxl'&gt;openpyxl&lt;/a&gt; 3.0.9</string>
+          <string>&lt;a href='https://github.com/dateutil/dateutil/blob/master/LICENSE'&gt;Apache 2.0&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -422,19 +501,6 @@
           <bool>true</bool>
          </property>
         </widget>
-       </item>
-       <item row="10" column="1">
-        <spacer name="horizontalSpacer_14">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
        </item>
        <item row="12" column="1">
         <spacer name="horizontalSpacer_9">
@@ -482,10 +548,23 @@
          </property>
         </widget>
        </item>
-       <item row="12" column="2">
-        <widget class="QLabel" name="label_28">
+       <item row="10" column="1">
+        <spacer name="horizontalSpacer_14">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="label_25">
          <property name="text">
-          <string>&lt;a href='https://opensource.org/licenses/Python-2.0'&gt;PSF 2.0&lt;/a&gt;</string>
+          <string>&lt;a href='https://github.com/nucleic/kiwi'&gt;kiwisolver&lt;/a&gt; 1.3.2</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -502,15 +581,28 @@
          </property>
         </widget>
        </item>
-       <item row="10" column="0">
-        <widget class="QLabel" name="label_25">
+       <item row="12" column="2">
+        <widget class="QLabel" name="label_28">
          <property name="text">
-          <string>&lt;a href='https://github.com/nucleic/kiwi'&gt;kiwisolver&lt;/a&gt; 1.3.2</string>
+          <string>&lt;a href='https://opensource.org/licenses/Python-2.0'&gt;PSF 2.0&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
          </property>
         </widget>
+       </item>
+       <item row="4" column="1">
+        <spacer name="horizontalSpacer_17">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
        </item>
        <item row="10" column="2">
         <widget class="QLabel" name="label_26">
@@ -522,8 +614,8 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="1">
-        <spacer name="horizontalSpacer_17">
+       <item row="22" column="1">
+        <spacer name="horizontalSpacer_12">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -548,32 +640,6 @@
          </property>
         </spacer>
        </item>
-       <item row="5" column="1">
-        <spacer name="horizontalSpacer_18">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="22" column="1">
-        <spacer name="horizontalSpacer_12">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
        <item row="3" column="1">
         <spacer name="horizontalSpacer_16">
          <property name="orientation">
@@ -587,130 +653,8 @@
          </property>
         </spacer>
        </item>
-       <item row="20" column="1">
-        <spacer name="horizontalSpacer_13">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="8" column="1">
-        <spacer name="horizontalSpacer_20">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="20" column="0">
-        <widget class="QLabel" name="label_31">
-         <property name="text">
-          <string>&lt;a href='https://github.com/pyparsing/pyparsing/'&gt;pyparsing&lt;/a&gt; 3.0.7</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="28" column="0">
-        <widget class="QLabel" name="label">
-         <property name="text">
-          <string>&lt;a href='https://github.com/Tencent/TencentKona-11'&gt;Tencent Kona JDK11&lt;/a&gt; 11.0.13</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="28" column="1">
-        <spacer name="horizontalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="19" column="2">
-        <widget class="QLabel" name="label_6">
-         <property name="text">
-          <string>&lt;a href='https://github.com/python-pillow/Pillow/blob/main/LICENSE'&gt;HPND&lt;/a&gt;</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="9" column="0">
-        <widget class="QLabel" name="label_15">
-         <property name="text">
-          <string>&lt;a href='https://github.com/jpype-project/jpype'&gt;Jpype&lt;/a&gt; 1.3.0</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="21" column="0">
-        <widget class="QLabel" name="label_7">
-         <property name="text">
-          <string>&lt;a href='https://wiki.qt.io/Qt_for_Python'&gt;Pyside6&lt;/a&gt; 6.2.2.1</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="21" column="1">
-        <spacer name="horizontalSpacer_4">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="23" column="2">
-        <widget class="QLabel" name="label_36">
-         <property name="text">
-          <string>&lt;a href='https://github.com/stub42/pytz/blob/master/LICENSE.txt'&gt;MIT&lt;/a&gt;</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="29" column="0">
-        <widget class="QLabel" name="label_11">
-         <property name="text">
-          <string>&lt;a href='https://github.com/amueller/word_cloud'&gt;wordcloud&lt;/a&gt; 1.8.1</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="23" column="1">
-        <spacer name="horizontalSpacer_2">
+       <item row="5" column="1">
+        <spacer name="horizontalSpacer_18">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -732,10 +676,46 @@
          </property>
         </widget>
        </item>
-       <item row="24" column="2">
-        <widget class="QLabel" name="label_50">
+       <item row="29" column="0">
+        <widget class="QLabel" name="label_11">
          <property name="text">
-          <string>&lt;a href='https://github.com/psf/requests/blob/main/LICENSE'&gt;Apache 2.0&lt;/a&gt;</string>
+          <string>&lt;a href='https://github.com/amueller/word_cloud'&gt;wordcloud&lt;/a&gt; 1.8.1</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="2">
+        <widget class="QLabel" name="label_36">
+         <property name="text">
+          <string>&lt;a href='https://github.com/stub42/pytz/blob/master/LICENSE.txt'&gt;MIT&lt;/a&gt;</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="1">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_43">
+         <property name="text">
+          <string>&lt;a href='https://github.com/ousret/charset_normalizer'&gt;charset-normalizer&lt;/a&gt; 2.0.10</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -749,13 +729,10 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="label_43">
+       <item row="24" column="2">
+        <widget class="QLabel" name="label_50">
          <property name="text">
-          <string>&lt;a href='https://github.com/ousret/charset_normalizer'&gt;charset-normalizer&lt;/a&gt; 2.0.10</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
+          <string>&lt;a href='https://github.com/psf/requests/blob/main/LICENSE'&gt;Apache 2.0&lt;/a&gt;</string>
          </property>
         </widget>
        </item>
@@ -782,18 +759,15 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="1">
-        <spacer name="horizontalSpacer_23">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_46">
+         <property name="text">
+          <string>&lt;a href='https://github.com/matplotlib/cycler/blob/main/LICENSE'&gt;BSD&lt;/a&gt;</string>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
+         <property name="openExternalLinks">
+          <bool>true</bool>
          </property>
-        </spacer>
+        </widget>
        </item>
        <item row="24" column="1">
         <spacer name="horizontalSpacer_25">
@@ -808,16 +782,6 @@
          </property>
         </spacer>
        </item>
-       <item row="2" column="2">
-        <widget class="QLabel" name="label_46">
-         <property name="text">
-          <string>&lt;a href='https://github.com/matplotlib/cycler/blob/main/LICENSE'&gt;BSD&lt;/a&gt;</string>
-         </property>
-         <property name="openExternalLinks">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
        <item row="24" column="0">
         <widget class="QLabel" name="label_49">
          <property name="text">
@@ -825,12 +789,18 @@
          </property>
         </widget>
        </item>
-       <item row="7" column="0">
-        <widget class="QLabel" name="label_47">
-         <property name="text">
-          <string>&lt;a href='https://github.com/kjd/idna'&gt;idna&lt;/a&gt; 3.3</string>
+       <item row="2" column="1">
+        <spacer name="horizontalSpacer_23">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
          </property>
-        </widget>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
        </item>
        <item row="7" column="2">
         <widget class="QLabel" name="label_48">
@@ -840,6 +810,13 @@
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="27" column="0">
+        <widget class="QLabel" name="label_51">
+         <property name="text">
+          <string>&lt;a href='https://github.com/urllib3/urllib3'&gt;urllib3&lt;/a&gt; 1.26.8</string>
          </property>
         </widget>
        </item>
@@ -856,17 +833,10 @@
          </property>
         </spacer>
        </item>
-       <item row="27" column="0">
-        <widget class="QLabel" name="label_51">
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_47">
          <property name="text">
-          <string>&lt;a href='https://github.com/urllib3/urllib3'&gt;urllib3&lt;/a&gt; 1.26.8</string>
-         </property>
-        </widget>
-       </item>
-       <item row="27" column="2">
-        <widget class="QLabel" name="label_52">
-         <property name="text">
-          <string>&lt;a href='https://github.com/urllib3/urllib3/blob/main/LICENSE.txt'&gt;MIT&lt;/a&gt;</string>
+          <string>&lt;a href='https://github.com/kjd/idna'&gt;idna&lt;/a&gt; 3.3</string>
          </property>
         </widget>
        </item>
@@ -882,6 +852,40 @@
           </size>
          </property>
         </spacer>
+       </item>
+       <item row="27" column="2">
+        <widget class="QLabel" name="label_52">
+         <property name="text">
+          <string>&lt;a href='https://github.com/urllib3/urllib3/blob/main/LICENSE.txt'&gt;MIT&lt;/a&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="31" column="2">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>&lt;a href='https://github.com/Tencent/TencentKona-11/blob/master/LICENSE'&gt;GPL 2.0&lt;/a&gt;</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="30" column="0" colspan="3">
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="31" column="1">
+        <widget class="QLabel" name="label_53">
+         <property name="text">
+          <string>（可能包含）</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
