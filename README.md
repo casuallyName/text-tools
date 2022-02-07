@@ -1,6 +1,6 @@
 # Text Tools 
 
- ![](https://img.shields.io/badge/Python-3.9-blue)  ![](https://img.shields.io/badge/PySide-6-blue) [![](https://img.shields.io/badge/License-Apache 2.0-blue)](https://github.com/casuallyName/text-tools/blob/main/LICENSE)
+ ![](https://img.shields.io/badge/Python-3.9-blue)  ![](https://img.shields.io/badge/PySide-6-blue)  <a href="https://github.com/casuallyName/text-tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache 2.0-blue"></a>
 
 文本分析工具
 目前实现：
