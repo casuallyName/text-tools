@@ -44,7 +44,8 @@ class ViewForm(QtWidgets.QWidget, Ui_Form):
             pass
 
     def resize_image(self):
-        scaled_pixmap = self.image_pix.scaled(self.image_pix.size() * self.spinBox_zoom.value() / 100)
+        scaled_pixmap = self.image_pix.scaled(self.image_pix.size() * self.spinBox_zoom.value() / 100,
+                                              QtGui.Qt.KeepAspectRatio, QtGui.Qt.SmoothTransformation)
         self.image.setPixmap(scaled_pixmap)
 
     def right_menu(self, pos) -> None:
