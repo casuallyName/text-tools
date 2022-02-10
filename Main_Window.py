@@ -84,7 +84,6 @@ class Window(Ui_MainWindow):
         self.spinBox_cutModelExtraction.setVisible(False)
         self.tabWidget_modelChoice.setMaximumSize(QtCore.QSize(16777215, 95))
 
-
     def retranslateUi(self, MainWindow):
         Ui_MainWindow.retranslateUi(self, MainWindow)
 
@@ -437,9 +436,6 @@ class Window(Ui_MainWindow):
                         '' if str(sample_data[row][column]) == 'nan' else str(sample_data[row][column])))
             self.tableWidget.blockSignals(False)
             self.set_enabled(True)
-            if self.tabWidget_modelChoice.tabText(self.tabWidget_modelChoice.currentIndex()) == '词云图制作':
-                self.comboBox_selectColumn.setEnabled(False)
-                self.pushButton_start.setEnabled(False)
 
     # 词云图制作时屏蔽开始按钮和数据输入选择
     def model_choice_change(self):
@@ -471,9 +467,6 @@ class Window(Ui_MainWindow):
         if not enable:
             MainWindow.setCursor(QtGui.QCursor(QtCore.Qt.BusyCursor))
         self.tabWidget_modelChoice.setEnabled(enable)
-        if enable and self.tabWidget_modelChoice.tabText(self.tabWidget_modelChoice.currentIndex()) != '词云图制作':
-            self.comboBox_selectColumn.setEnabled(enable)
-            self.pushButton_start.setEnabled(enable)
         self.comboBox_selectColumn.setEnabled(enable)
         self.pushButton_start.setEnabled(enable)
         self.tableWidget.setEnabled(enable)
