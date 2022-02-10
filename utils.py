@@ -14,8 +14,8 @@ import configparser
 from pandas import DataFrame
 from wordcloud import get_single_color_func
 
-built_version = '0.0.1'
-built_date = 'January 27, 2022'
+built_version = '0.0.2'
+built_date = 'February 10, 2022'
 
 config = configparser.ConfigParser()
 config.read(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'src', 'config.ini'), encoding='utf-8')
