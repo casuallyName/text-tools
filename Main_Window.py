@@ -39,6 +39,7 @@ class Window(Ui_MainWindow):
         self.wc_gen = None
         self.show_data = None
         self.select_column_dict = {'All': {}, 'Text': {}, 'Rank': {}, 'Color': {}}
+        self.page_dict = {'Page': {}, 'Eve': {}}
         self.all_pages = 1
         self.head_index = 0
 
@@ -236,7 +237,6 @@ class Window(Ui_MainWindow):
 
         :return:
         '''
-
         self.data = self._read_file_thread.data
         self.statusbar.showMessage('')
         self.menubar.setEnabled(True)
@@ -249,6 +249,7 @@ class Window(Ui_MainWindow):
         self.update_save_menu()
         items = ['请选择一列数据'] + self.data[self.tabWidget.tabText(self.tabWidget.currentIndex())].columns.tolist()
         self.select_column_dict = {'All': {}, 'Text': {}, 'Rank': {}, 'Color': {}}
+        self.page_dict = {'Page': {}, 'Eve': {}}
         self.comboBox_selectColumn.blockSignals(True)
         self.comboBox_selectColumn.clear()
         self.comboBox_selectColumn.addItems(items)
@@ -334,6 +335,8 @@ class Window(Ui_MainWindow):
             self.spinBox_pageNow.blockSignals(True)
             self.spinBox_pageNow.setValue(int(self.head_index / self.spinBox_everyPage.value()) + 1)
             self.spinBox_pageNow.blockSignals(False)
+        self.page_dict['Page'][self.tabWidget.tabText(self.tabWidget.currentIndex())] = self.spinBox_pageNow.value()
+        self.page_dict['Eve'][self.tabWidget.tabText(self.tabWidget.currentIndex())] = self.spinBox_everyPage.value()
         self.change_table_show()
 
     #  sheet表名选择对应处理 comboBox
@@ -393,6 +396,14 @@ class Window(Ui_MainWindow):
         else:
             self.word_cloud_form.comboBox_colourColumn.setCurrentIndex(0)
         self.word_cloud_form.comboBox_colourColumn.blockSignals(False)
+        self.spinBox_pageNow.blockSignals(True)
+        self.spinBox_pageNow.setValue(
+            self.page_dict['Page'].get(self.tabWidget.tabText(self.tabWidget.currentIndex()), 1))
+        self.spinBox_pageNow.blockSignals(False)
+        self.spinBox_everyPage.blockSignals(True)
+        self.spinBox_everyPage.setValue(
+            self.page_dict['Eve'].get(self.tabWidget.tabText(self.tabWidget.currentIndex()), 100))
+        self.spinBox_everyPage.blockSignals(False)
         self.change_table_show()
 
     # 记录每个sheet表选择的列名
@@ -506,11 +517,14 @@ class Window(Ui_MainWindow):
         elif flag == '-':
             if self.spinBox_pageNow.value() + 1 <= self.all_pages:
                 self.spinBox_pageNow.setValue(self.spinBox_pageNow.value() + 1)
+
         elif flag == '+':
             if self.spinBox_pageNow.value() - 1 > 0:
                 self.spinBox_pageNow.setValue(self.spinBox_pageNow.value() - 1)
         elif flag == '--':
             self.spinBox_pageNow.setValue(self.all_pages)
+        self.page_dict['Page'][self.tabWidget.tabText(self.tabWidget.currentIndex())] = self.spinBox_pageNow.value()
+        self.page_dict['Eve'][self.tabWidget.tabText(self.tabWidget.currentIndex())] = self.spinBox_everyPage.value()
 
     # 修改表格对应的处理函数
     def change_table_value(self, item):
