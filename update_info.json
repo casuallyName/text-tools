@@ -1,15 +1,17 @@
 {
-  "LatestVersion": "0.0.1",
-  "LatestVersionBuiltDate": "February 6, 2022",
+  "LatestVersion": "0.0.2",
+  "LatestVersionBuiltDate": "February 10, 2022",
   "PatchPack": {
-    "Link": "",
-    "PatchPackFor": []
+    "Link": "https://gitee.com/casuallyName/text-tools/attach_files/963330/download/Patch_pack_0.0.2.zip",
+    "PatchPackFor": ["0.0.1"]
   },
   "Content": [
-    "v0.0.1"
+    "修复词云图页面切换表格按钮激活混乱问题",
+    "新增不同sheet页页码保存功能"
   ],
   "DownLoad": {
     "Github": "https://github.com/casuallyName/text-tools/releases/tag/v0.0.1",
-    "阿里云盘": "https://www.aliyundrive.com/s/y7fw3r3GZPZ"
-  }
+    "阿里云盘": "https://www.aliyundrive.com/s/cafs7NKiMh5"
+  },
+  "AppId": "C2F634EE-7601-4AC0-9F21-55A2617F69F4"
 }
