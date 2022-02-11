@@ -3,7 +3,7 @@
   "LatestVersionBuiltDate": "February 10, 2022",
   "PatchPack": {
     "Link": "https://gitee.com/casuallyName/text-tools/attach_files/963330/download/Patch_pack_0.0.2.zip",
-    "PatchPackFor": []
+    "PatchPackFor": ["0.0.1"]
   },
   "Content": [
     "修复词云图页面切换表格按钮激活混乱问题",
