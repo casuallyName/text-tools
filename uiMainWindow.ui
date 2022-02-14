@@ -351,18 +351,24 @@
       <property name="autoFillBackground">
        <bool>true</bool>
       </property>
+      <property name="styleSheet">
+       <string notr="true">“background:transparent;border-width:0;border-style:outset”</string>
+      </property>
       <property name="tabPosition">
        <enum>QTabWidget::South</enum>
       </property>
       <property name="currentIndex">
        <number>0</number>
       </property>
-      <property name="tabBarAutoHide">
+      <property name="documentMode">
        <bool>true</bool>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
-        <string>Tab 1</string>
+        <string>无数据</string>
        </attribute>
       </widget>
      </widget>
@@ -1350,7 +1356,7 @@
      <x>0</x>
      <y>0</y>
      <width>871</width>
-     <height>22</height>
+     <height>30</height>
     </rect>
    </property>
    <widget class="QMenu" name="file_menu">

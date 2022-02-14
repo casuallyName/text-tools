@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'uiMainWindow.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.2.2
+## Created by: Qt User Interface Compiler version 6.2.3
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -205,8 +205,10 @@ class Ui_MainWindow(object):
         self.tabWidget.setMinimumSize(QSize(0, 25))
         self.tabWidget.setMaximumSize(QSize(16777215, 25))
         self.tabWidget.setAutoFillBackground(True)
+        self.tabWidget.setStyleSheet(u"\u201cbackground:transparent;border-width:0;border-style:outset\u201d")
         self.tabWidget.setTabPosition(QTabWidget.South)
-        self.tabWidget.setTabBarAutoHide(True)
+        self.tabWidget.setDocumentMode(True)
+        self.tabWidget.setTabBarAutoHide(False)
         self.tab = QWidget()
         self.tab.setObjectName(u"tab")
         self.tabWidget.addTab(self.tab, "")
@@ -597,7 +599,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 871, 22))
+        self.menubar.setGeometry(QRect(0, 0, 871, 30))
         self.file_menu = QMenu(self.menubar)
         self.file_menu.setObjectName(u"file_menu")
         self.menu_save = QMenu(self.file_menu)
@@ -713,7 +715,7 @@ class Ui_MainWindow(object):
         self.pushButton_DownTop.setWhatsThis(QCoreApplication.translate("MainWindow", u"\u5c3e\u9875", None))
 #endif // QT_CONFIG(whatsthis)
         self.pushButton_DownTop.setText("")
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"Tab 1", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"\u65e0\u6570\u636e", None))
         self.comboBox_selectColumn.setItemText(0, QCoreApplication.translate("MainWindow", u"\u8bf7\u9009\u62e9\u4e00\u5217\u6570\u636e", None))
 
         self.pushButton_start.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb", None))
