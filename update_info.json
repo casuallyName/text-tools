@@ -6,8 +6,7 @@
     "PatchPackFor": ["0.0.1"]
   },
   "Content": [
-    "修复词云图页面切换表格按钮激活混乱问题",
-    "新增不同sheet页页码保存功能"
+    "修复词云图页面切换表格按钮激活混乱问题"
   ],
   "DownLoad": {
     "Github": "https://github.com/casuallyName/text-tools/releases/tag/v0.0.2",
