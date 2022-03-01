@@ -1,6 +1,10 @@
 # Text Tools 
 
- ![Python](https://img.shields.io/badge/Python-3.9-blue)  ![PySide](https://img.shields.io/badge/PySide-6-blue) ![Version](https://img.shields.io/badge/Version-v0.0.1-blue) <a href="https://github.com/casuallyName/text-tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache 2.0-blue"></a>
+ ![Python](https://img.shields.io/badge/Python-3.9-blue) 
+ ![PySide](https://img.shields.io/badge/PySide-6-blue) 
+ ![HanLP](https://img.shields.io/badge/HanLP-1.x-blue) 
+ ![Version](https://img.shields.io/badge/Version-v0.0.2-blue) 
+ <a href="https://github.com/casuallyName/text-tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache 2.0-blue"></a>
 
 文本分析工具
 
