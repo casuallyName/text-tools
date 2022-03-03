@@ -1,16 +1,16 @@
 {
-  "LatestVersion": "0.0.2",
-  "LatestVersionBuiltDate": "February 10, 2022",
+  "LatestVersion": "0.0.3",
+  "LatestVersionBuiltDate": "March 2, 2022",
   "PatchPack": {
-    "Link": "https://gitee.com/casuallyName/text-tools/attach_files/963801/download/Patch_pack_0.0.2.zip",
-    "PatchPackFor": ["0.0.1"]
+    "Link": "https://gitee.com/casuallyName/text-tools/attach_files/984200/download/Patch_pack_0.0.3.zip",
+    "PatchPackFor": ["0.0.1","0.0.2"]
   },
   "Content": [
-    "修复词云图页面切换表格按钮激活混乱问题"
+    "完善Sheet页及功能选项卡间切换功能，切换时可保存页码及模型已选择的内容"
   ],
   "DownLoad": {
-    "Github": "https://github.com/casuallyName/text-tools/releases/tag/v0.0.2",
-    "阿里云盘": "https://www.aliyundrive.com/s/cafs7NKiMh5"
+    "Github": "https://github.com/casuallyName/text-tools/releases/tag/v0.0.3",
+    "阿里云盘": "https://www.aliyundrive.com/s/PHbRUq4KSRW"
   },
   "AppId": "76C09EAE-09B4-42A5-A916-B212926E0C03"
 }
